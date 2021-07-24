@@ -27,7 +27,7 @@ document.querySelector('.busca').addEventListener('submit', async(event) => {
             showWarning('Local não encontrado ou digitado errado');
         }
     } else {
-
+        clearInfo();
     }
 });
 
